@@ -55,7 +55,7 @@ dependencies {
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
-    implementation("androidx.activity:activity-compose:1.7.0")
+    implementation("androidx.activity:activity-compose:1.8.2")
     implementation(platform("androidx.compose:compose-bom:2023.08.00"))
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
@@ -72,7 +72,7 @@ dependencies {
     implementation ("androidx.compose.material:material-icons-core:4.13.2")
     implementation ("androidx.compose.material:material-icons-extended:4.13.2")
     // Update V(1.0.0-alpha04)
-    implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+    implementation ("androidx.lifecycle:lifecycle-view-model-compose:2.7.0")
     // Update V(1.0.0-alpha09)
     implementation ("androidx.navigation:navigation-compose:2.7.7")
 
@@ -107,5 +107,8 @@ dependencies {
     // Update V(1.0.0-beta01)
     kapt ("androidx.hilt:hilt-compiler:1.2.0")
     implementation ("androidx.hilt:hilt-navigation-compose:1.2.0")
+
+    //noinspection GradleCompatible
+    implementation ("com.android.support:palette-v7:28.0.0")
 
 }
