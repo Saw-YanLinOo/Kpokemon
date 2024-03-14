@@ -1,5 +1,6 @@
 package com.yanyan.kpokemon.data.remote
 
+import com.yanyan.kpokemon.data.remote.responses.Pokemon
 import com.yanyan.kpokemon.data.remote.responses.PokemonList
 import retrofit2.http.GET
 import retrofit2.http.Path
@@ -15,5 +16,5 @@ interface PokemonAPI {
     @GET("/api/v2/pokemon/{name}")
     suspend fun getPokemonDetail(
         @Path("name") name:String
-    ):Pokemon
+    ): Pokemon
 }
