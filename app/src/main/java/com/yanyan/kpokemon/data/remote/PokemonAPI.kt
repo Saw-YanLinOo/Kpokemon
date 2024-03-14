@@ -1,8 +1,5 @@
 package com.yanyan.kpokemon.data.remote
 
-import androidx.compose.ui.geometry.Offset
-import com.yanyan.kpokemon.data.remote.responses.Pokemon
-import com.yanyan.kpokemon.data.remote.responses.PokemonList
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query

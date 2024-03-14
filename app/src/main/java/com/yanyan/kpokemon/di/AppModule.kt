@@ -1,7 +1,6 @@
 package com.yanyan.kpokemon.di
 
 import com.yanyan.kpokemon.data.remote.PokemonAPI
-import com.yanyan.kpokemon.data.remote.responses.Pokemon
 import com.yanyan.kpokemon.repository.PokemonRepository
 import com.yanyan.kpokemon.util.Constants.BASE_URL
 import dagger.Module

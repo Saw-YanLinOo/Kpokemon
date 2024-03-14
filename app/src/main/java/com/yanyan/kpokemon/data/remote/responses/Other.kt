@@ -1,8 +1,15 @@
 package com.yanyan.kpokemon.data.remote.responses
 
+
+import com.google.gson.annotations.SerializedName
+
 data class Other(
-    val dream_world: DreamWorld,
+    @SerializedName("dream_world")
+    val dreamWorld: DreamWorld,
+    @SerializedName("home")
     val home: Home,
-    val official-artwork: OfficialArtwork,
+    @SerializedName("official-artwork")
+    val officialArtwork: OfficialArtwork,
+    @SerializedName("showdown")
     val showdown: Showdown
 )

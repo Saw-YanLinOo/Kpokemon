@@ -1,8 +1,6 @@
 package com.yanyan.kpokemon.repository
 
 import com.yanyan.kpokemon.data.remote.PokemonAPI
-import com.yanyan.kpokemon.data.remote.responses.Pokemon
-import com.yanyan.kpokemon.data.remote.responses.PokemonList
 import com.yanyan.kpokemon.util.Resource
 import dagger.hilt.android.scopes.ActivityScoped
 import java.lang.Exception
