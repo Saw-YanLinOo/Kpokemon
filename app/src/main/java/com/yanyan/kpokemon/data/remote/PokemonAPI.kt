@@ -1,5 +1,6 @@
 package com.yanyan.kpokemon.data.remote
 
+import com.yanyan.kpokemon.data.remote.responses.PokemonList
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
